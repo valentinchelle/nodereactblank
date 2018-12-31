@@ -1,0 +1,47 @@
+.profilePicHeader {
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+}
+
+.profileTitle {
+  color: #474747;
+  line-height: normal;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profileSubtitle {
+  font-weight: normal;
+  line-height: normal;
+  font-size: 16px;
+  text-align: center;
+
+  color: #9a9a9a;
+}
+
+.badgeProfile {
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  display: inline-block;
+  box-shadow: 0px 0px 50px rgba(112, 128, 175, 0.1);
+}
+.badgeProfile #logged-as-text {
+  color: #bcbcbc;
+}
+.badgeProfile #badgeInformation {
+  float: right;
+}
+.badgeProfile #circleAvatar {
+  border-radius: 50%;
+  border: 1px solid #ececec;
+  background: #fff;
+  float: left;
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}

@@ -1,0 +1,131 @@
+.card {
+  background: #fff;
+  box-shadow: 0px 0px 50px rgba(112, 128, 175, 0.2);
+  border-radius: 5px;
+}
+
+.card .card_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #212121;
+  text-decoration: none;
+  padding: 0px;
+}
+
+.card .card_text {
+  color: #888888;
+  font-size: 18px;
+}
+
+.card .card_body {
+  padding: 20px;
+}
+
+.card .card .card_header {
+  border-bottom: 1px solid #cacaca;
+  padding: 10px;
+  color: #474747;
+}
+.card_footer {
+  padding: 10px;
+  border-top: 1px solid #cacaca;
+  background-color: #fafafa;
+}
+
+.card_article {
+  box-shadow: 0px 0px 50px rgba(112, 128, 175, 0.2);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 100%;
+  color: #212121;
+}
+
+.card_article .card_image {
+  visibility: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_article .card_image--hover {
+  transition: 0.2s all ease-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  top: 0;
+}
+.card_article:hover .card_image--hover {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.card_article:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+}
+.card_article .card_body {
+  z-index: 2;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+  background-color: #fff;
+}
+
+.card_article:hover .card_body {
+  background-color: transparent;
+  position: absolute;
+}
+
+.card_article .card_body .card_tags {
+  color: #868686;
+  letter-spacing: 2px;
+}
+.card_article .card_body .card_title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card_article .card__info-hover {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+.card_article:hover .card__info-hover {
+  opacity: 1;
+  top: 0;
+}
+.card_article .card__like {
+  width: 18px;
+  padding-right: 20px;
+}
+
+.card_article .card__clock {
+  width: 15px;
+  vertical-align: middle;
+}
+.card_article .card__time {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.card_article .card__clock-info {
+  float: right;
+  padding-right: 30px;
+}
+.card_article .card_author {
+}

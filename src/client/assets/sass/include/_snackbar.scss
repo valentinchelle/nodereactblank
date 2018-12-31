@@ -1,0 +1,6 @@
+@import "./variables";
+
+.error_snackbar div {
+  color: #fff;
+  background-color: $error-color;
+}

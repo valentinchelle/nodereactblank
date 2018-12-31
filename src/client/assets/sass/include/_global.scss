@@ -1,0 +1,35 @@
+@import "./variables";
+body a {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+body {
+  background-color: #fff;
+  font-family: SF-Pro, Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  font-variant-numeric: proportional-nums;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.beforeForm h2 {
+  margin-top: -10px;
+  font-weight: normal;
+  color: #737373;
+  font-family: "SF-Pro", "Roboto", sans-serif;
+}
+
+.beforeForm h1 {
+  font-weight: bold;
+  color: #474747;
+  font-weight: bold;
+  font-family: "SF-Pro", "Roboto", sans-serif;
+}

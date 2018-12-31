@@ -1,0 +1,21 @@
+@import "./variables";
+
+.button {
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  background-color: $primary-color;
+  color: #fff;
+  font-size: 19px;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.button-extended {
+  width: 100%;
+}
